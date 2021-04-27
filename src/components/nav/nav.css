@@ -1,0 +1,44 @@
+.sidebar_container {
+  padding: 10px;
+  min-width: 200px;
+  height: 100%;
+  background-color: #282c34;
+  color: white;
+}
+
+.sidebar {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  padding: 10px;  
+}
+
+.sidebar li:not(:first-child) {
+  border-top: 1px solid #555;	
+}
+
+.sidebar li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar li a:hover {
+  color: lightskyblue;
+}
+
+.sidebar li a.active {
+  color: #E6526E;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.page_container {
+  flex: 1;
+  padding: 10px;
+}
